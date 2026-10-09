@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "companies": {
+    "cedarline labs": {
+      "networking": {"status": "researched", "date": "2025-04-09", "evidence": "research/networking.md"},
+      "posting": {"status": "researched", "date": "2025-04-09", "evidence": "research/postings.md"}
+    },
+    "harborlight analytics": {
+      "networking": {"status": "partial", "date": "2025-04-09", "evidence": "research/networking.md"},
+      "posting": {"status": "researched", "date": "2025-04-12", "evidence": "research/postings.md"}
+    }
+  }
+}
