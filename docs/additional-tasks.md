@@ -1,6 +1,6 @@
 # Additional repeatable tasks
 
-These occasional tasks use the same candidate evidence and criteria as the ten skills. They do not need separate skill wrappers until repeated use justifies them.
+These occasional tasks use the same candidate evidence and criteria as the task skills. They do not need separate skill wrappers until repeated use justifies them.
 
 ## Positioning and public-profile audit
 

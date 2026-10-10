@@ -4,6 +4,7 @@ The same structure is used under `workspace/` for personal work and under `examp
 
 | Record | Authority |
 | --- | --- |
+| `setup.md` | Local onboarding progress, introduced/practiced topics, open facts, and next task; separate from candidate facts or completed search activity |
 | `profile/candidate.md` and `profile/evidence.md` | Candidate facts, approved wording, evidence, and disclosure choices |
 | `strategy/criteria.md` | Candidate's search gates and preferences |
 | `opportunities/roles/*.md` | Canonical role identity, decision, pipeline stage, availability, and next action |

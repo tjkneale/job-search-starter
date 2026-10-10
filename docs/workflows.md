@@ -1,9 +1,10 @@
 # Task menu
 
-Use a plain-language outcome or the focused skill below. For personal tasks read `workspace/` context; use `examples/` only when explicitly walking through the invented demo.
+Start with `$job-setup` for a guided introduction and personal setup, or use a plain-language outcome or the focused skill below. For personal tasks read `workspace/` context; use `examples/` only when explicitly walking through the invented demo.
 
 | Skill | Procedure |
 | --- | --- |
+| `$job-setup` | [Guided onboarding](onboarding.md) and [capability tour](capability-tour.md) |
 | `$job-role-research` | [Role Research](workflows/role-research.md) |
 | `$job-lamp-networking` | [Lamp Networking](workflows/lamp-networking.md) |
 | `$job-lamp-posting` | [Lamp Posting](workflows/lamp-posting.md) |

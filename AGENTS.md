@@ -4,6 +4,7 @@ This repository supplies reusable methods and fictional examples. Personal work 
 
 ## Context and authority
 
+- For getting started, a capability tour, or resuming setup, use [job-setup](.agents/skills/job-setup/SKILL.md). If skill selection is unavailable, follow [the onboarding guide](docs/onboarding.md). Ordinary job-search tasks use their focused workflows.
 - For personal work read `workspace/profile/candidate.md`, `workspace/profile/evidence.md`, `workspace/strategy/criteria.md`, and the relevant existing records. If the workspace has not been initialized, help the user run the initialization command and gather only the context needed for the task.
 - Treat `examples/` as fictional fixtures. Do not treat example facts, decisions, attendance, verification, or compensation preferences as facts about the user. Never copy fictional accomplishments into personal materials. Templates are blank structure, not source evidence.
 - Candidate facts and decisions come from the user and supported records. Role `Pipeline` values are canonical local stages. A CRM is an optional mirror. Research priority, candidate interest, stage, and company scores are distinct.

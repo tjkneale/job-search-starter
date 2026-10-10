@@ -1,5 +1,13 @@
 # Job Search Starter
 
+**Start here:** create your own private copy with **Use this template**, open its local folder in Codex, and send this in chat:
+
+```text
+$job-setup
+```
+
+The agent will explain the capabilities with fictional examples, help you set up your own search, and guide you through a first useful task. You can choose a tour only, skip steps, or resume later. You can also say “Help me set up this repo and show me how to use it.” [Guided onboarding](docs/onboarding.md) explains the steps.
+
 A personal job-search workspace for an AI assistant: research opportunities, explore networking paths, prepare applications and interviews, and carry evidence and decisions from one task into the next.
 
 This is a standalone starter offered as a one-time handoff. There is no scheduled maintenance or support commitment, upstream synchronization, or dependency on the creator's private workspace. You own and adapt your copy. Reuse is covered by the [MIT license](LICENSE).
@@ -18,9 +26,11 @@ python3 scripts/job_search.py check --root examples
 ## Make it yours
 
 1. On GitHub, choose **Use this template → Create a new repository** and select **Private** for your personal copy. You can also use a downloaded copy locally.
-2. Open your copy in Codex and run `python3 scripts/job_search.py init` in a terminal. It creates blank records in gitignored `workspace/` and refuses to overwrite existing work.
-3. Fill `workspace/profile/candidate.md`, `workspace/profile/evidence.md`, and `workspace/strategy/criteria.md`; supply your current resume. [Setup](docs/setup.md) explains the minimum needed.
-4. Ask for an outcome, or name a skill: “Use $job-role-research to assess this posting against my criteria.”
+2. Open your local copy in Codex and send `$job-setup` in chat. The agent runs available local commands, introduces the examples, and helps collect only the context needed to begin.
+3. Choose a first task, such as assessing a posting or preparing a conversation. Personal records and setup progress stay in gitignored `workspace/`; you can ask to resume setup later.
+4. For later work, ask for an outcome or name a skill: “Use $job-role-research to assess this posting against my criteria.”
+
+Prefer manual setup? Run `python3 scripts/job_search.py init` in a terminal, then follow [Setup](docs/setup.md). It creates blank records and refuses to overwrite existing work.
 
 The skills in `.agents/skills/` route to the procedures below. Research uses available web/browser tools; document authoring uses your assistant's document tools. These tools and connected accounts are not bundled. Markdown preparation works without artifact tools. Invoking a skill does not contact anyone or create an automation.
 

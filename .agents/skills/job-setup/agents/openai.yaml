@@ -1,0 +1,4 @@
+interface:
+  display_name: "Set Up Job Search"
+  short_description: "Guided setup, capability tour, and your first task"
+  default_prompt: "Use $job-setup to walk me through this repo and help me begin my own job search."

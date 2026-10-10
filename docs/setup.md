@@ -1,5 +1,7 @@
 # Setup
 
+For agent-guided setup, send `$job-setup` in a chat opened in your local copy, or say “Help me set up this repo.” The [onboarding guide](onboarding.md) supports a fictional tour, gradual personal intake, a first task, and resumable progress. The steps below are the manual path.
+
 Use a private personal copy for actual job-search work. The public starter remains reusable methods plus invented examples. GitHub's [template creation guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) describes making an independent copy with fresh history.
 
 Run `python3 scripts/job_search.py init` from the repository root. The command creates `workspace/` from [blank workspace templates](../templates/workspace/README.md). It does not copy example data, connect accounts, or set up schedules. If `workspace/` exists, initialization stops without changing it.
